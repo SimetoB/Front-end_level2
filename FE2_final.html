@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FE2 Final</title>
+	<link rel="stylesheet" href="fe2_final.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<section>
+		<form id="wrapper">
+			<table class="main">
+				<tr>
+					<td>Choose background color
+						<input type="text" name="color" value="Purple" id="color" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button type="button" class="stylized-buttons" id="prev">Prev</button>
+						<button type="button" class="stylized-buttons" id="add">+Add</button>
+						<button type="button" class="stylized-buttons" id="next">Next</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a id="target" href="#" target="_blank">
+							<img id="gallery" class="success" alt="gallery" />
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div id="star-holder"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table class="nested">
+							<tr>
+								<th>First Name</th>
+								<td>
+									<input type="text" name="fname" placeholder="Enter your first name here" />
+								</td>
+							</tr>
+							<tr>
+								<th>Last name</th>
+								<td>
+									<input type="text" name="lname" placeholder="Enter your last name here" />
+								</td>
+							</tr>
+							<tr>
+								<th>Do you think other's likes affect you:</th>
+								<td class="align-right">
+									Yes <input type="radio" name="affect" value="yes" /><br />
+									Maybe <input type="radio" name="affect" value="maybe" /><br />
+									No <input type="radio" name="affect" value="no" /><br />
+								</td>
+							</tr>
+							<tr>
+								<th>Rate:</th>
+								<td>
+									<label for="1">1</label>
+									<input type="radio" name="rate" value="1" id="1" />
+									<label for="2">2</label>
+									<input type="radio" name="rate" value="2" id="2" />
+									<label for="3">3</label>
+									<input type="radio" name="rate" value="3" id="3" />
+									<label for="4">4</label>
+									<input type="radio" name="rate" value="4" id="4" />
+									<label for="5">5</label>
+									<input type="radio" name="rate" value="5" id="5" />
+								</td>
+							</tr>
+							<tr>
+								<th>Comment:</th>
+								<td>
+									<textarea placeholder="Add comment here."></textarea>
+								</td>
+							</tr>
+							<tr>
+								<th colspan="2">How did you hear about us:</th>
+							</tr>
+							<tr>
+								<td class="align-left" colspan="2">
+									<input type="checkbox" name="hear[facebook]" value="1" id="facebook" />
+									<label for="facebook">Facebook</label><br />
+									<input type="checkbox" name="hear[friend]" value="2" id="friend" />
+									<label for="friend">A friend</label><br />
+									<input type="checkbox" name="hear[google_ad]" value="3" id="google_ad" />
+									<label for="google_ad">Google ad</label><br />
+									<input type="checkbox" name="hear[some_ad]" value="4" id="some_ad"/>
+									<label for="some_ad">Some ad</label><br />
+									<input type="checkbox" name="hear[dont_remember]" value="5" id="dont_remember"/>
+									<label for="dont_remember">I don't remember</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input type="submit" name="submit" value="Send" />
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<svg width="300" height="300">
+							<polygon
+							 points="150,10 80,200 250,80 50,80 220,200"
+							 style="fill:#9451bb"
+							/>
+						</svg>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</section>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+	background-color: #EBDFF2;
+}
+
+section {
+	padding: 30px;
+	margin:auto;
+	width: 80%;
+	background-color: #9451bb;
+}
+
+form {
+	background-color: #B180CD;
+	padding: 20px;
+	color: white;
+}
+
+.main {
+	text-align: center;
+	width: 100%;
+}
+
+.main td {
+	padding-bottom: 15px;
+}
+
+.stylized-buttons {
+	padding: 15px 25px;
+	background-color: #9451bb;
+	color: white;
+	font-size: 18px;
+	border-radius: 50%;
+	border-width: 0;
+}
+
+.success {
+	width: 700px;
+	height: 500px;
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
+#star-holder {
+	width: 150px;
+	height: 160px;
+	margin: auto;
+}
+
+#star {
+	width: 150px;
+	height: 150px;
+}
+
+.nested {
+	margin: auto;
+	width: 50%;
+}
+
+.nested th {
+	border: 2px solid white;
+}
+
+.nested td {
+	border: 2px solid white;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
